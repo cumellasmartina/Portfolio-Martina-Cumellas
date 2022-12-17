@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .heroButton {
+    @apply px-5 py-2 border border-white rounded-full uppercase text-xs tracking-widest text-[#7d7c7c] transition-all hover:border-[#fb8500] hover:text-[#fb8500];
+  }
+}
+
+.custom-img {
+  background-image: url("../img/hero.jpg");
+}
