@@ -16,6 +16,7 @@ export default function About({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-lightgray text-2xl">
         About
       </h3>
+
       <motion.img
         initial={{
           x: -200,
