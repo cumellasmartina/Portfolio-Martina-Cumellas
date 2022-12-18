@@ -13,7 +13,7 @@ export default function Hero({}: Props) {
   return (
     <div className="custom-img h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden bg-center bg-cover">
       <div className="z-20 flex flex-col ">
-        <h2 className="text-sm uppercase text-gray pb-5 tracking-[10px] ">
+        <h2 className="text-sm uppercase text-lightgray pb-5 tracking-[10px] ">
           Software Engineer & UI Designer
         </h2>
         <h1 className="text-3xl lg:text-4xl font-medium pt-1 text-[#fb8500]">
@@ -22,7 +22,7 @@ export default function Hero({}: Props) {
         </h1>
       </div>
 
-      <div className="pt-5 text-[#7d7c7c] ">
+      <div className="pt-5 text-darkgray ">
         <Link href="#about">
           <button className="heroButton">About</button>
         </Link>
