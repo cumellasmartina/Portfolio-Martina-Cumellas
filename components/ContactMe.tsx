@@ -17,7 +17,7 @@ export default function ContactMe({}: Props) {
 
       <div className="flex flex-col space-y-10 text-white">
         <h4 className="text-4xl font-semibold text-center">
-          Do I have what you are looking for?{" "}
+          Can I have what you are looking for?{" "}
           <span className=" underline text-[#FB8500]">
             {" "}
             Let's talk about it!
