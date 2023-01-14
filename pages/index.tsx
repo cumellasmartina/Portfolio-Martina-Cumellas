@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div className=" bg-darkgray h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0">
       <Head>
-        <title>Martina Cumellas' Portfolio</title>
+        <title>Martina Cumellas Portfolio</title>
       </Head>
 
       <Header />
